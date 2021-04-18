@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "561819680099",
+    "firebase_url": "https://jd-demo-6a57f-default-rtdb.firebaseio.com",
+    "project_id": "jd-demo-6a57f",
+    "storage_bucket": "jd-demo-6a57f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561819680099:android:c0c3977c9704632332a756",
+        "android_client_info": {
+          "package_name": "com.peter.wagstaff.jddemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561819680099-a2p1e5i6nbdc0207jdc1181d041f3obb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi4zxbOgxbWe5JnzbEpHZrsBlFf3Jy-cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561819680099-a2p1e5i6nbdc0207jdc1181d041f3obb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

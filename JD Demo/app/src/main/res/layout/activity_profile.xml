@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/pure_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/profile_w_h"
+            android:layout_height="@dimen/profile_w_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/user_id_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_chettan"
+            android:text="User ID"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/change_username_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/rounded_corner_button"
+            android:fontFamily="@font/baloo_chettan"
+            android:paddingBottom="4dp"
+            android:text="Change Username"
+            android:textColor="@color/pure_white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/change_password_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_corner_button"
+            android:fontFamily="@font/baloo_chettan"
+            android:paddingBottom="4dp"
+            android:text="Change Password"
+            android:textColor="@color/pure_white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/delete_user_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_corner_button"
+            android:fontFamily="@font/baloo_chettan"
+            android:paddingBottom="4dp"
+            android:text="Delete User"
+            android:textColor="@color/pure_white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_corner_button"
+            android:fontFamily="@font/baloo_chettan"
+            android:paddingBottom="4dp"
+            android:text="Sign Out"
+            android:textColor="@color/pure_white"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
